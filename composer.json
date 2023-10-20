@@ -9,10 +9,8 @@
             "email": "mh.farnan@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-		"farnan/contact": "1.0.0"
-	},
+    "minimum-stability": "stable",
+    "require": {},
     "autoload": {
         "psr-4": {
             "farnan\\Contact\\": "src/"
