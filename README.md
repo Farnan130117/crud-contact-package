@@ -2,5 +2,5 @@
 This will make a crud operation for contact in database
 
 # Install crud-contact-package
-composer require farnan/contact:dev-main 
-php artisan migrate
+  <b>composer require farnan/contact:dev-main</b> <br />
+  <b>php artisan migrate</b>
