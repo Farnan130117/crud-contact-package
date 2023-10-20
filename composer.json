@@ -1,0 +1,26 @@
+{
+    "name": "farnan/contact",
+    "description": "This will make a crud operation for contact in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "farnan",
+            "email": "mh.farnan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "farnan\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "farnan\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
