@@ -5,11 +5,11 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "farnan",
+            "name": "Md. Mokammel Hossen Farnan",
             "email": "mh.farnan@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
