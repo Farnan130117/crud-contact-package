@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1>Edit Contacts</h1>
+        <h1>Add New Contact</h1>
         <form action="{{ route('contact') }}" method="post">
             @csrf
             <div class="form-group">
@@ -32,13 +32,7 @@
 
         @if (!empty($contacts))
         <table class="table table-bordered mt-4">
-            <thead class="thead-light">
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
+            
             <tbody>
                 @foreach($contacts as $contact)
                     <tr>
